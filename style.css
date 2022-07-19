@@ -1,0 +1,55 @@
+#title {
+    font-size: 30px;
+    
+    margin-top: 0%;
+}
+
+label {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#button {
+    background-color: rgb(156, 167, 239);
+width: 200px;
+height: 50px;
+font-size: 25px;
+
+}
+canvas {
+    margin-top: 200px;
+}
+body {
+    background-color: rgb(216, 112, 147);
+}
+
+#showsketch {
+    float: right;
+}
+
+#titlediv {
+    width: 100%;
+    text-align: center;
+}
+#span1 {
+    float: left;
+}
+
+#span2 {
+    float: right;
+}
+
+label {
+    font-size: 30;
+}
+canvas {
+    background-color: white;
+    border-radius: 10px;
+   animation-name: examples;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+}
+@keyframes examples {
+   from{ box-shadow: 5px 5px 20px red;}
+   to{  box-shadow: 5px 5px 20px purple;}
+}   
